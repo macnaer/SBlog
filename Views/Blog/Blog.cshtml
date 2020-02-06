@@ -10,8 +10,9 @@
             @foreach (var item in Model)
             {
                 <h3>@item.title</h3>
-                <img src="~/img/resume-vs-cover-letter.jpg" alt="@item.title" />
+                <img src="~/img/@item.img" alt="@item.title" />
                 <p>@item.preview</p>
+                <a class="btn btn-success" asp-controller="Blog" asp-action="Post" asp-route-id="@item.id">Read more</a>
             }
         </div>
     </div>

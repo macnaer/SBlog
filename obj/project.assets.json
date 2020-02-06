@@ -12944,23 +12944,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\macnaer\\.nuget\\packages\\": {},
+    "C:\\Users\\master\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\macnaer\\source\\repos\\MVC Intro\\MVC Intro\\MVC Intro.csproj",
+      "projectUniqueName": "C:\\Users\\master\\Desktop\\SBlog\\MVC Intro.csproj",
       "projectName": "MVC Intro",
-      "projectPath": "C:\\Users\\macnaer\\source\\repos\\MVC Intro\\MVC Intro\\MVC Intro.csproj",
-      "packagesPath": "C:\\Users\\macnaer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\macnaer\\source\\repos\\MVC Intro\\MVC Intro\\obj\\",
+      "projectPath": "C:\\Users\\master\\Desktop\\SBlog\\MVC Intro.csproj",
+      "packagesPath": "C:\\Users\\master\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\master\\Desktop\\SBlog\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\macnaer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\master\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

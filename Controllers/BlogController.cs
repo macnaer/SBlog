@@ -14,6 +14,24 @@ namespace MVC_Intro.Controllers
         {
             _context = context;
         }
+
+        [Route("Blog/Post/{id}")]
+        public IActionResult Post(int id)
+        {
+            var query = _context.Blog.AsQueryable();
+
+            var posts = query.Where(post => post.id == id).Select(p => new BlogModel
+            {
+                id = p.id,
+                title = p.title,
+                author = p.author,
+                fullPost = p.fullPost,
+                img = p.img,
+            }).SingleOrDefault();
+
+            return View(posts);
+        }
+
         public IActionResult Blog()
         {
             List<BlogModel> posts = _context.Blog.ToList();
