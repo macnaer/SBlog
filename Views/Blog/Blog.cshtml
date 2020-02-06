@@ -1,0 +1,19 @@
+﻿@model List<BlogModel>
+@{
+    ViewData["Title"] = "Blog";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h2>Posts</h2>
+            @foreach (var item in Model)
+            {
+                <h3>@item.title</h3>
+                <img src="~/img/resume-vs-cover-letter.jpg" alt="@item.title" />
+                <p>@item.preview</p>
+            }
+        </div>
+    </div>
+</div>
+
