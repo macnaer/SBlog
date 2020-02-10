@@ -9,7 +9,7 @@ namespace MVC_Intro.Data.Interfaces
     public interface IPostRepository
     {
         BlogModel GetPostById(int id);
-        IEnumerable<BlogModel> GetPallPosts();
+        IEnumerable<BlogModel> GetAllPosts();
         BlogModel CreatePost(BlogModel post);
         BlogModel UpdatePost(BlogModel newPost);
         BlogModel DeletePost(int Id);

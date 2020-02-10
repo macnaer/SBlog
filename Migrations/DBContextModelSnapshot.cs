@@ -24,15 +24,21 @@ namespace MVC_Intro.Migrations
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("author");
+                    b.Property<string>("author")
+                        .IsRequired()
+                        .HasMaxLength(30);
 
-                    b.Property<string>("fullPost");
+                    b.Property<string>("fullPost")
+                        .IsRequired();
 
                     b.Property<string>("img");
 
-                    b.Property<string>("preview");
+                    b.Property<string>("preview")
+                        .IsRequired();
 
-                    b.Property<string>("title");
+                    b.Property<string>("title")
+                        .IsRequired()
+                        .HasMaxLength(100);
 
                     b.HasKey("id");
 

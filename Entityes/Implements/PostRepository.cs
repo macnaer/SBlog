@@ -34,7 +34,7 @@ namespace MVC_Intro.Entityes.Implements
             return post;
         }
 
-        public IEnumerable<BlogModel> GetPallPosts()
+        public IEnumerable<BlogModel> GetAllPosts()
         {
             return context.Blog;
         }
