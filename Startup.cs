@@ -9,7 +9,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using MVC_Intro.Data.Interfaces;
 using MVC_Intro.Entityes;
+using MVC_Intro.Entityes.Implements;
 using MVC_Intro.Models;
 
 namespace MVC_Intro
@@ -35,6 +37,8 @@ namespace MVC_Intro
 
             var connections = Configuration.GetConnectionString("DefaultConnection");
             services.AddDbContext<DBContext>(options => options.UseSqlServer(connections));
+
+            services.AddTransient<IPostRepository, PostRepository>();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }

@@ -15,15 +15,5 @@ namespace MVC_Intro.Models
         }
         public DbSet<BlogModel> Blog { get; set; }
 
-        //public class EFDBContextFactory : IDesignTimeDbContextFactory<DBContext>
-        //{
-        //    public DBContext CreateDbContext(string[] args)
-        //    {
-        //        var optionsBuilder = new DbContextOptionsBuilder<DBContext>();
-        //        optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=blog;Trusted_Connection=True;MultipleActiveResultSets=true");
-
-        //        return new DBContext(optionsBuilder.Options);
-        //    }
-        //}
     }
 }
