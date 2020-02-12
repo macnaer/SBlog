@@ -5,8 +5,10 @@ using System.Threading.Tasks;
 
 namespace MVC_Intro.ViewModel
 {
-    public class EmployeeEditViewModel
+    public class PostEditViewModel : PostCreateViewModel
     {
+        public int Id { get; set; }
+        public string ExistImgPath { get; set; }
 
     }
 }

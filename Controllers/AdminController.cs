@@ -48,7 +48,11 @@ namespace MVC_Intro.Controllers
                     string uploadsFolder = Path.Combine(hostingEnvironment.WebRootPath, "img");
                     uniqFileName = Guid.NewGuid().ToString() + "_" + model.img.FileName;
                     string filePath = Path.Combine(uploadsFolder, uniqFileName);
-                    model.img.CopyTo(new FileStream(filePath, FileMode.Create));
+                    using (var fileStream = new FileStream(filePath, FileMode.Create))
+                    {
+                        model.img.CopyTo(fileStream);
+                    }
+                        
                 }
                 BlogModel newPost = new BlogModel
                 {
@@ -59,8 +63,7 @@ namespace MVC_Intro.Controllers
                     img = uniqFileName
                 };
                 _postRep.CreatePost(newPost);
-                //return RedirectToAction("CreatePost", new RouteValueDictionary(
-                //                new { controller = BlogController, action = "Post", Id = newPost.id }));
+                return RedirectToRoute("default", new { controller = "Blog", action = "Post", id = newPost.id });
             }
             return View();
         }
