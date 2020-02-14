@@ -26,6 +26,12 @@ namespace MVC_Intro.Controllers
         public IActionResult Post(int id)
         {
             var post = _postRepository.GetPostById(id);
+
+            if (post == null)
+            {
+                Response.StatusCode = 404;
+                return View("PostNotFound", id);
+            }
                  
             return View(post);
         }

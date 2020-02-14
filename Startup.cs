@@ -52,7 +52,7 @@ namespace MVC_Intro
             }
             else
             {
-                app.UseExceptionHandler("/Home/Error");
+                app.UseStatusCodePagesWithReExecute("/Error/{0}");
             }
 
             app.UseStaticFiles();

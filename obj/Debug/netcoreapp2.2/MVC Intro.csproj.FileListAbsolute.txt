@@ -96,3 +96,5 @@ D:\Lib\Projects\SBlog\obj\Debug\netcoreapp2.2\MVC Intro.csproj.CopyComplete
 D:\Lib\Projects\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Admin\Admin.g.cshtml.cs
 D:\Lib\Projects\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Admin\CreatePost.g.cshtml.cs
 D:\Lib\Projects\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Blog\Edit.g.cshtml.cs
+D:\Lib\Projects\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Shared\PostNotFound.g.cshtml.cs
+D:\Lib\Projects\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Shared\NotFound.g.cshtml.cs
