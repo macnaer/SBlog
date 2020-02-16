@@ -21,7 +21,6 @@
 
 
   <ItemGroup>
-    <Folder Include="Views\Error\" />
     <Folder Include="wwwroot\img\" />
   </ItemGroup>
 
