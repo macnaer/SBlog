@@ -98,3 +98,4 @@ D:\Lib\Projects\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Admin\CreatePost.g.csh
 D:\Lib\Projects\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Blog\Edit.g.cshtml.cs
 D:\Lib\Projects\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Shared\PostNotFound.g.cshtml.cs
 D:\Lib\Projects\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Shared\NotFound.g.cshtml.cs
+D:\Lib\Projects\SBlog\bin\Debug\netcoreapp2.2\nlog.config

@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using MVC_Intro.Data.Interfaces;
 using MVC_Intro.Models;
 using MVC_Intro.ViewModel;
@@ -15,16 +16,26 @@ namespace MVC_Intro.Controllers
     {
         private readonly IPostRepository _postRepository;
         private readonly IHostingEnvironment hostingEnvironment;
+        private readonly ILogger logger;
 
-        public BlogController(DBContext context, IPostRepository postRepository, IHostingEnvironment hostingEnvironment)
+        public BlogController(DBContext context, IPostRepository postRepository, 
+            IHostingEnvironment hostingEnvironment,
+            ILogger<BlogController> logger)
         {
             _postRepository = postRepository;
             this.hostingEnvironment = hostingEnvironment;
+            this.logger = logger;
         }
 
         [Route("Blog/Post/{id}")]
         public IActionResult Post(int id)
         {
+            logger.LogTrace("Trace Log");
+            logger.LogDebug("Debug Log");
+            logger.LogInformation("Information Log");
+            logger.LogWarning("Warning Log");
+            logger.LogError("Error Log");
+            logger.LogCritical("Critical Log");
             var post = _postRepository.GetPostById(id);
 
             if (post == null)
