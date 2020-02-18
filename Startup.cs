@@ -41,8 +41,13 @@ namespace MVC_Intro
 
             services.AddTransient<IPostRepository, PostRepository>();
 
-            services.AddIdentity<IdentityUser, IdentityRole>()
+            services.AddIdentity<IdentityUser, IdentityRole>(options =>
+            {
+                options.Password.RequiredLength = 5;
+                options.Password.RequiredUniqueChars = 2;
+            })
                 .AddEntityFrameworkStores<DBContext>();
+
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }

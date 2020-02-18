@@ -23,8 +23,13 @@ using MVC_Intro.Models;
 
 #line default
 #line hidden
+#line 3 "D:\Lib\Projects\SBlog\Views\_ViewImports.cshtml"
+using Microsoft.AspNetCore.Identity;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"921c9d3c5599cffa168217ccd7a553e3fed8c84e", @"/Views/Blog/Post.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"faf59aa078ae66d887c546a482717e281fd6d68c", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"80efd3448b503f708da4e3d99fdec2a0bb6cb799", @"/Views/_ViewImports.cshtml")]
     public class Views_Blog_Post : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #line hidden
@@ -63,7 +68,7 @@ using MVC_Intro.Models;
             WriteLiteral("</h3>\r\n                ");
             EndContext();
             BeginContext(157, 49, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "921c9d3c5599cffa168217ccd7a553e3fed8c84e3539", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "921c9d3c5599cffa168217ccd7a553e3fed8c84e3667", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
