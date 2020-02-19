@@ -100,3 +100,4 @@ D:\Lib\Projects\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Shared\PostNotFound.g.
 D:\Lib\Projects\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Shared\NotFound.g.cshtml.cs
 D:\Lib\Projects\SBlog\bin\Debug\netcoreapp2.2\nlog.config
 D:\Lib\Projects\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Account\Register.g.cshtml.cs
+D:\Lib\Projects\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Account\Login.g.cshtml.cs
