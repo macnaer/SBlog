@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Design;
 
 namespace MVC_Intro.Models
 {
-    public class DBContext: IdentityDbContext
+    public class DBContext: IdentityDbContext<AppUser>
     {
         public DBContext(DbContextOptions<DBContext> options) : base(options)
         {

@@ -43,7 +43,7 @@ namespace MVC_Intro
 
             services.AddTransient<IPostRepository, PostRepository>();
 
-            services.AddIdentity<IdentityUser, IdentityRole>(options =>
+            services.AddIdentity<AppUser, IdentityRole>(options =>
             {
                 options.Password.RequiredLength = 5;
                 options.Password.RequiredUniqueChars = 2;
