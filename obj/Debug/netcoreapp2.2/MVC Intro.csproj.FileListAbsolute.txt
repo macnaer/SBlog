@@ -112,3 +112,6 @@ C:\Users\master\Desktop\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Shared\PostNot
 D:\Lib\Projects\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Administrator\CreateRole.g.cshtml.cs
 D:\Lib\Projects\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Administrator\ListRoles.g.cshtml.cs
 D:\Lib\Projects\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Administrator\EditRole.g.cshtml.cs
+D:\Lib\Projects\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Administrator\EditUsersInRole.g.cshtml.cs
+D:\Lib\Projects\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Account\View.g.cshtml.cs
+D:\Lib\Projects\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Account\AccessDenied.g.cshtml.cs

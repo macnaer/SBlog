@@ -1,0 +1,5 @@
+2020-02-25 00:28:44.1333|WARN|MVC_Intro.Controllers.ErrorController|404 Error Occured. Path = /Account/AccessDenied and QueryString = ?ReturnUrl=%2FAdministrator%2Flistroles
+2020-02-25 00:28:54.3497|WARN|MVC_Intro.Controllers.ErrorController|404 Error Occured. Path = /Account/AccessDenied and QueryString = ?ReturnUrl=%2FAdministrator%2Flistroles
+2020-02-25 00:40:49.3883|WARN|MVC_Intro.Controllers.ErrorController|404 Error Occured. Path = /administration/CreateRole and QueryString = 
+2020-02-25 00:49:10.6653|ERROR|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view 'AccessDenied' was not found. Searched locations: /Views/Account/AccessDenied.cshtml, /Views/Shared/AccessDenied.cshtml, /Pages/Shared/AccessDenied.cshtml
+2020-02-25 00:49:10.9506|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLTPFERSMBT7", Request id "0HLTPFERSMBT7:00000005": An unhandled exception was thrown by the application.
