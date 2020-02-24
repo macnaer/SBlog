@@ -109,3 +109,6 @@ C:\Users\master\Desktop\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Admin\CreatePo
 C:\Users\master\Desktop\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Blog\Edit.g.cshtml.cs
 C:\Users\master\Desktop\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Shared\NotFound.g.cshtml.cs
 C:\Users\master\Desktop\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Shared\PostNotFound.g.cshtml.cs
+D:\Lib\Projects\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Administrator\CreateRole.g.cshtml.cs
+D:\Lib\Projects\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Administrator\ListRoles.g.cshtml.cs
+D:\Lib\Projects\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Administrator\EditRole.g.cshtml.cs
