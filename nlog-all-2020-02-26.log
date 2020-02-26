@@ -1,0 +1,9 @@
+2020-02-26 07:44:36.3883|TRACE|MVC_Intro.Controllers.BlogController|Trace Log
+2020-02-26 07:44:36.5440|DEBUG|MVC_Intro.Controllers.BlogController|Debug Log
+2020-02-26 07:44:36.5833|INFO|MVC_Intro.Controllers.BlogController|Information Log
+2020-02-26 07:44:36.5935|WARN|MVC_Intro.Controllers.BlogController|Warning Log
+2020-02-26 07:44:36.5935|ERROR|MVC_Intro.Controllers.BlogController|Error Log
+2020-02-26 07:44:36.6126|FATAL|MVC_Intro.Controllers.BlogController|Critical Log
+2020-02-26 08:12:19.6647|ERROR|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view 'EditUser' was not found. Searched locations: /Views/Administrator/EditUser.cshtml, /Views/Shared/EditUser.cshtml, /Pages/Shared/EditUser.cshtml
+2020-02-26 08:12:19.9630|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HLTQGB78N1KH", Request id "0HLTQGB78N1KH:00000007": An unhandled exception was thrown by the application.
+2020-02-26 08:14:24.5070|WARN|MVC_Intro.Controllers.ErrorController|404 Error Occured. Path = /Administrator/EditUser/0cb36c05-dcf5-4612-8d46-40e47cb10666 and QueryString = 

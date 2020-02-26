@@ -121,3 +121,5 @@ C:\Users\master\Desktop\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Administrator\
 C:\Users\master\Desktop\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Administrator\EditRole.g.cshtml.cs
 C:\Users\master\Desktop\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Administrator\EditUsersInRole.g.cshtml.cs
 C:\Users\master\Desktop\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Administrator\ListRoles.g.cshtml.cs
+D:\Lib\Projects\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Administrator\ListUsers.g.cshtml.cs
+D:\Lib\Projects\SBlog\obj\Debug\netcoreapp2.2\Razor\Views\Administrator\EditUser.g.cshtml.cs
